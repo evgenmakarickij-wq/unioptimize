@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "unioptimize",
+  "version": "${version}",
+  "name": "UniOptimize",
+  "description": "Оптимізація Minecraft: очищення сутностей, tick-rate, клієнтська графіка",
+  "authors": ["Claude"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.unioptimize.UniOptimizeMod"],
+    "client": ["com.unioptimize.UniOptimizeClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
